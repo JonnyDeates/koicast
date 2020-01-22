@@ -1,0 +1,54 @@
+.header * {
+    display: inline-flex;
+}
+.header h1{
+    color: white;
+    margin: 4rem auto 0 auto;
+    font-size: 5rem;
+    text-shadow: 2px 2px 1px #000000, 2px 2px 6px rgba(0,0,0,0.5);
+}
+.header img {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    margin-top: 3.45rem;
+    box-shadow: 2px 2px 1px #000000, 2px 2px 6spx rgba(0,0,0,0.5);
+    border-radius: 100%;
+}
+.header .spin {
+    animation: spin 1s ease-in-out;
+}
+@media (min-width: 480px) {
+    .header h1{
+        margin: 8rem auto 0 auto;
+        font-size: 8rem;
+        text-shadow: 3px 3px 2px #000000, 3px 3px 9px rgba(0,0,0,0.5);
+    }
+    .header img {
+        width: 4rem;
+        height: 4rem;
+        margin-top: 4.5rem;
+        box-shadow: 3px 3px 2px #000000, 3px 3px 9px rgba(0,0,0,0.5);
+    }
+}
+@media (min-width: 767px) {
+    .header h1{
+        margin: 8rem auto 0 auto;
+        font-size: 12rem;
+        text-shadow: 4px 4px 2px #000000, 4px 4px 12px rgba(0,0,0,0.5);
+    }
+    .header img {
+        width: 7rem;
+        height: 7rem;
+        margin-top: 6rem;
+        box-shadow: 4px 4px 2px #000000, 4px 4px 12px rgba(0,0,0,0.5);
+    }
+}
+@keyframes spin {
+    0%  {
+        transform: rotateZ(0deg);
+    }
+100% {
+        transform: rotateZ(1440deg);
+    }
+}

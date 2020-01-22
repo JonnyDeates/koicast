@@ -1,0 +1,12 @@
+.home-component {
+width: fit-content;
+    margin: 0 auto;
+}
+.home-component h2 {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+@media (min-width: 480px) {
+}
+@media (min-width: 767px) {
+}

@@ -1,0 +1,15 @@
+.page-component h2 {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.page-component .expand {
+    animation: expand 1s ease-in-out;
+}
+@keyframes expand {
+    0%,100%  {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}

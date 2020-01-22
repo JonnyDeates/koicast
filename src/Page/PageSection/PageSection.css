@@ -1,0 +1,26 @@
+.page-section-component {
+    margin-bottom: 1.5em;
+}
+.page-section-component h3 {
+    color: white;
+
+}
+
+.page-section-component p {
+    text-align: justify;
+    width: 80vw;
+    margin: 0 auto .5em auto;
+}
+.page-section-component button {
+    border-radius: 10px;
+    padding: 8px 16px;
+    background: white;
+    border: none;
+    box-shadow: 1px 1px 1px #00000088;
+    font-weight: bold;
+    cursor: pointer;
+}
+.page-section-component button:hover {
+    background: #ffffffee;
+    box-shadow: 1px 1px 1px black, 2px 2px 6px #00000055;
+}
